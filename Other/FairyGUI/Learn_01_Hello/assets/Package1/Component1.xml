@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <image id="n0_ktvk" name="n0" src="ktvk0" fileName="001.jpg" xy="8,21" size="341,239"/>
+    <text id="n1_ktvk" name="n1" xy="255,58" size="73,39" fontSize="30" text="Hello"/>
+  </displayList>
+</component>
