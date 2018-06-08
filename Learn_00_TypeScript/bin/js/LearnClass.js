@@ -63,6 +63,7 @@ var LearnClass = /** @class */ (function () {
         d1.name = "LayaAir";
         d1.makeSound();
         d1.move();
+        // let a = new Animal();
     };
     LearnClass.prototype.Test6 = function () {
         var Grid = /** @class */ (function () {
