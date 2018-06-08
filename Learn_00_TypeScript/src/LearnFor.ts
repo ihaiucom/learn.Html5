@@ -3,8 +3,78 @@ class LearnFor
     constructor()
     {
         setTimeout(()=> {
-            this.Test1();
+            this.Test6();
         }, 500);
+    }
+
+    private Test6()
+    {
+        // let pets = new Set(["Cat", "Dog", "Hamster"]);
+        // pets["species"] = "mammals";
+
+        // for (let pet in pets) {
+        //     console.log(pet); // "species"
+        // }
+
+        // for (let pet of pets) {
+        //     console.log(pet); // "Cat", "Dog", "Hamster"
+        // }
+    }
+
+
+    private Test5()
+    {
+        let someArray = [100, "string", false];
+
+        h1("for of");
+        for (let entry of someArray)
+        {
+            log(entry); // 1, "string", false
+        }
+
+
+        h1("for in");
+        for (let entry in someArray)
+        {
+            log(entry); 
+        }
+
+        
+        log("");
+        log("");
+        h1("this");
+        for (let entry in this)
+        {
+            pre(entry); 
+        }
+
+
+        
+        class Size {
+            feet: number;
+
+            hell:string = "hello";
+            constructor(numFeet: number) { }
+
+            static className:string;
+            static className2:string = "Size";
+        }
+
+        h1("Size class");
+        for (let entry in Size)
+        {
+            pre(entry); 
+        }
+
+        let size = new Size(10);
+        
+        h1("size obj");
+        for (let entry in size)
+        {
+            pre(entry); 
+        }
+
+        
     }
 
     private Test1()
