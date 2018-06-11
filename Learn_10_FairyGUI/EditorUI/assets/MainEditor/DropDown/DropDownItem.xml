@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="146,22" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="2"/>
+  <displayList>
+    <image id="n3_twle" name="n3" src="twle2c" xy="0,0" size="146,22" alpha="0.5">
+      <gearDisplay controller="button" pages="1,2,3"/>
+      <relation target="n2" sidePair="width-width"/>
+    </image>
+    <text id="n2" name="title" xy="29,1" size="55,23" fontSize="12" vAlign="middle" autoSize="none" singleLine="true" text="haha">
+      <gearColor controller="button" pages="2" values="#000000,#000000" default="#000000,#000000"/>
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <loader id="n4_twle" name="icon" xy="10,3" size="12,16" autoSize="true"/>
+    <text id="n5_twle" name="HotKey" xy="88,1" size="42,23" fontSize="12" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

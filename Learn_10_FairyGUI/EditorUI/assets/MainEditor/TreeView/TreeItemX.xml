@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,19" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n10" name="n10" xy="0,0" size="240,19" type="rect" lineSize="0" fillColor="#7a0066cc">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n2" name="title" xy="40,0" size="134,19" fontSize="12" autoSize="none" singleLine="true" text="Title">
+      <relation target="n12_f72e" sidePair="right-right"/>
+    </text>
+    <graph id="n3" name="indent" xy="0,0" size="16,18"/>
+    <component id="n12_f72e" name="expand" src="h564l" xy="22,3">
+      <relation target="n3" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

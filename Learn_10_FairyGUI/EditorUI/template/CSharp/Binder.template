@@ -1,0 +1,13 @@
+using FairyGUI;
+
+namespace {packageName}
+{
+	public class {className}
+	{
+		[UnityEngine.RuntimeInitializeOnLoadMethod]
+		public static void BindAll()
+		{
+{bindContent}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="45,29" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="2"/>
+  <displayList>
+    <image id="n6_guxq" name="n6" src="guxq1g" xy="-1,0" size="45,29">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n7_guxq" name="n7" src="guxq1c" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n8_guxq" name="n8" src="guxq1d" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

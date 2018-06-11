@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n0_loq0" name="frame" src="guxq15" xy="0,0" locked="true">
+      <Label title="模组加载工具"/>
+    </component>
+    <graph id="n2_loq0" name="n2" xy="12,46" size="357,659" type="rect" lineColor="#ffdadbdc">
+      <relation target="" sidePair="top-top"/>
+    </graph>
+    <list id="n1_loq0" name="n1" xy="20,51" size="342,646" overflow="scroll" scrollBarFlags="4"/>
+    <loader id="n3_loq0" name="n3" xy="412,47" size="844,284"/>
+    <graph id="n4_loq0" name="n4" xy="410,339" size="846,366" type="rect" lineColor="#ffdadbdc">
+      <relation target="" sidePair="top-top"/>
+    </graph>
+    <richtext id="n5_loq0" name="n5" xy="418,347" size="831,351" fontSize="12" autoSize="none" text="这里设定的是各种简介的内容&#xA;官方资源的说"/>
+  </displayList>
+</component>

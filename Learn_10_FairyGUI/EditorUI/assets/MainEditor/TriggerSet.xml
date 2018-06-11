@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n0_s0fq" name="frame" src="guxq15" xy="399,182" size="474,330"/>
+    <graph id="n5_s0fq" name="n5" xy="414,277" size="442,182" type="rect" lineColor="#ffdadbdc">
+      <relation target="" sidePair="top-top"/>
+    </graph>
+    <component id="n4_s0fq" name="DropDown" src="qqqi6" xy="412,227" size="446,40">
+      <ComboBox visibleItemCount="10">
+        <item title="11"/>
+        <item title="22"/>
+      </ComboBox>
+    </component>
+    <richtext id="n7_ahuy" name="Comment" xy="420,283" size="428,170" fontSize="12" ubb="true" autoSize="none" text="打开界面"/>
+    <component id="n8_ahuy" name="Confrim" src="qqqih" xy="753,469">
+      <Button title="确定" titleColor="#ffffff"/>
+    </component>
+    <component id="n9_cjoc" name="Cancel" src="qqqih" xy="654,470">
+      <Button title="取消" titleColor="#ffffff"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="221,185">
+  <controller name="button" pages="0,up,1,down,2,over" selected="0"/>
+  <displayList>
+    <image id="n6_twle" name="n6" src="twle2b" xy="1,0" size="219,188">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n4_qqqi" name="list" xy="1,2" size="213,179" overflow="scroll" scrollBarFlags="164" scrollBar="visible" defaultItem="ui://gximdat7qqqi7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </list>
+  </displayList>
+</component>

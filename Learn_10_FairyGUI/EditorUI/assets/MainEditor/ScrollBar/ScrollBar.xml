@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="16,100" extention="ScrollBar">
+  <displayList>
+    <component id="n2_h564" name="grip" src="h56412" xy="0,16" size="16,68">
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <component id="n0_h564" name="arrow1" src="h56411" xy="0,0">
+      <relation target="" sidePair="top-top"/>
+    </component>
+    <component id="n4_s0fq" name="n4" src="s0fq24" xy="0,84">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <graph id="n3_h564" name="bar" xy="0,16" size="16,68">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+  </displayList>
+  <ScrollBar/>
+</component>
