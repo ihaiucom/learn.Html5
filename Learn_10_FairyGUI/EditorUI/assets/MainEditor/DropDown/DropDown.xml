@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="148,39" extention="ComboBox" bgColor="#e6e9ea">
+  <controller name="button" pages="0,up,1,down,2,over" selected="0"/>
+  <displayList>
+    <component id="n4_ahuy" name="button" src="ahuy26" xy="0,0" size="147,39">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <text id="n1_qqqi" name="title" xy="6,11" size="10,19" fontSize="12" color="#ffffff" bold="true" shadowColor="#000000" shadowOffset="1,1" text="">
+      <relation target="" sidePair="width-width"/>
+    </text>
+  </displayList>
+  <ComboBox dropdown="ui://gximdat7qqqi9"/>
+</component>

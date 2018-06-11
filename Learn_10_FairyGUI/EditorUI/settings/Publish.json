@@ -1,0 +1,14 @@
+{
+	"codeGeneration":{
+		"classNamePrefix":"Virtual_",
+		"codePath":"D:\\MyProjectSVN\\SkyDrive\\CCZ\\Assets\\Scripts\\UI\\",
+		"codeType":"C#",
+		"getMemberByName":true,
+		"ignoreNoname":true,
+		"memberNamePrefix":"",
+		"packageName":""
+	},
+	"fileExtension":"",
+	"packageCount":2,
+	"path":"D:\\MyProjectSVN\\SkyDrive\\CCZ\\Assets\\Resources\\EditorUI"
+}

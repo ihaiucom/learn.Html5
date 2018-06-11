@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" overflow="hidden" opaque="false" extention="Label" initName="frame">
+  <displayList>
+    <image id="n3_guxq" name="n3" src="guxq1e" xy="0,0" size="1280,720">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n0_guxq" name="dragArea" xy="0,0" size="1279,30" fillColor="#ff0099ff">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n1_guxq" name="closeButton" src="guxq16" xy="1235,1">
+      <relation target="" sidePair="top-top,right-right"/>
+    </component>
+    <text id="n2_guxq" name="title" xy="39,5" size="53,22" fontSize="16" text="触发器">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n4_guxq" name="n4" src="guxq1k" xy="1145,1">
+      <relation target="" sidePair="top-top,right-right"/>
+    </component>
+    <component id="n5_guxq" name="n5" src="guxq1j" xy="1190,1">
+      <relation target="" sidePair="top-top,right-right"/>
+    </component>
+    <graph id="n6_guxq" name="n6" xy="1,30" size="1278,1" type="rect" lineSize="0" fillColor="#ffdadbdc">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <loader id="n7_guxq" name="icon" xy="16,4" size="20,23" url="ui://gximdat7guxq1l" fill="scale">
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader>
+  </displayList>
+</component>

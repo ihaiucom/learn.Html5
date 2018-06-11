@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <controller name="toggle" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n8_guxq" name="frame" src="guxq15" xy="0,0" locked="true"/>
+    <component id="n15_tba2" name="n15" src="tba228" xy="5,36" size="72,21" group="n24_k1oq">
+      <Button checked="true" title="脚本编辑器" controller="toggle" page="0"/>
+    </component>
+    <component id="n17_k1oq" name="n17" src="tba228" xy="83,36" size="72,21" group="n24_k1oq">
+      <Button title="剧本编辑器" controller="toggle" page="1"/>
+    </component>
+    <component id="n23_k1oq" name="n23" src="tba228" xy="162,36" size="72,21" group="n24_k1oq">
+      <Button title="战场编辑器" controller="toggle" page="2"/>
+    </component>
+    <graph id="n13_tba2" name="n13" xy="1,57" size="1278,1" group="n24_k1oq" type="rect" lineColor="#ffdadbdc">
+      <relation target="" sidePair="top-top,height-height"/>
+    </graph>
+    <group id="n24_k1oq" name="ButtonGroup" xy="1,36" size="1278,22" collapsed="true"/>
+    <graph id="n10_guxq" name="n10" xy="2,72" size="307,620" group="n20_k1oq" type="rect" lineColor="#ffdadbdc">
+      <relation target="" sidePair="top-top,height-height"/>
+    </graph>
+    <list id="n1_h564" name="TriggerFile" xy="0,74" size="304,612" group="n20_k1oq" overflow="scroll" scrollBarFlags="4" defaultItem="ui://gximdat7h564m">
+      <relation target="n10_guxq" sidePair="height-height,top-top"/>
+    </list>
+    <group id="n20_k1oq" name="File" xy="0,72" size="309,620" collapsed="true"/>
+    <text id="n7_h564" name="n7" xy="313,271" size="65,20" group="n21_k1oq" fontSize="16" bold="true" text="触发器:">
+      <relation target="" sidePair="top-top"/>
+    </text>
+    <graph id="n9_guxq" name="n9" xy="313,300" size="961,392" group="n21_k1oq" type="rect" lineColor="#ffdadbdc">
+      <relation target="" sidePair="top-top"/>
+    </graph>
+    <list id="n6_h564" name="TriggerList" xy="320,305" size="945,380" group="n21_k1oq" overflow="scroll" scrollBarFlags="4" defaultItem="ui://gximdat7h56413">
+      <relation target="" sidePair="top-bottom"/>
+    </list>
+    <group id="n21_k1oq" name="Trigger" xy="313,271" size="961,421" advanced="true" collapsed="true">
+      <gearXY controller="toggle" pages="1" values="313,431" default="313,271"/>
+      <gearSize controller="toggle" pages="1" values="961,261,1,1" default="961,421,1,1"/>
+    </group>
+    <component id="n19_k1oq" name="PreView" src="k1oq2a" xy="312,73" size="961,348">
+      <gearDisplay controller="toggle" pages="1"/>
+    </component>
+    <graph id="n3_h564" name="n3" xy="313,99" size="961,98" group="n22_k1oq" type="rect" lineColor="#ffdadbdc">
+      <relation target="" sidePair="top-top"/>
+    </graph>
+    <text id="n4_h564" name="n4" xy="313,72" size="48,20" group="n22_k1oq" fontSize="16" bold="true" text="备注:">
+      <relation target="" sidePair="top-top"/>
+    </text>
+    <text id="n5_h564" name="Comment" xy="320,104" size="946,88" group="n22_k1oq" input="true" fontSize="16" autoSize="none" bold="true" text=""/>
+    <group id="n22_k1oq" name="ScriptEdit" xy="313,72" size="961,125" advanced="true" collapsed="true">
+      <gearDisplay controller="toggle" pages="0"/>
+    </group>
+  </displayList>
+</component>
