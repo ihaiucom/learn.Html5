@@ -5,6 +5,7 @@ class LearnFor
         setTimeout(()=> {
             this.Test6();
         }, 500);
+
     }
 
     private Test6()

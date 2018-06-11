@@ -12,9 +12,151 @@ var LearnLH = /** @class */ (function () {
     function LearnLH() {
         var _this = this;
         setTimeout(function () {
-            _this.Test2();
+            _this.Test9();
         }, 500);
     }
+    LearnLH.prototype.Test10 = function () {
+    };
+    LearnLH.prototype.Test9 = function () {
+        var person = {
+            name: 'Jarid',
+            age: 35
+        };
+    };
+    LearnLH.prototype.Test8 = function () {
+        var numbers = [65, 44, 12, 4];
+        numbers.map(function (value, index, arr) {
+            log("value=" + value + ", index=" + index + ", arr=" + arr);
+        });
+        numbers.map(function (n) { return log(n); });
+        function pluck(o, names) {
+            return names.map(function (n) { return o[n]; });
+        }
+        var person = {
+            name: 'Jarid',
+            age: 35
+        };
+        var strings = pluck(person, ['name']); // ok, string[]
+        log(strings);
+    };
+    LearnLH.prototype.Test7 = function () {
+        function pluck(o, names) {
+            return names.map(function (n) { return o[n]; });
+        }
+    };
+    LearnLH.prototype.Test6 = function () {
+        var UIElement = /** @class */ (function () {
+            function UIElement() {
+            }
+            UIElement.prototype.animate = function (dx, dy, easing) {
+                if (easing === "ease-in") {
+                    // ...
+                }
+                else if (easing === "ease-out") {
+                }
+                else if (easing === "ease-in-out") {
+                }
+                else {
+                    // error! should not pass null or undefined.
+                }
+            };
+            return UIElement;
+        }());
+        var button = new UIElement();
+        button.animate(0, 0, "ease-in");
+        // button.animate(0, 0, "uneasy"); // error: "uneasy" is not allowed here
+    };
+    LearnLH.prototype.Test5 = function () {
+        var name = "1234";
+        log(typeof name);
+        var fun = function () {
+            return "hello world";
+        };
+        fun();
+    };
+    LearnLH.prototype.Test4 = function () {
+        var BasePadder = /** @class */ (function () {
+            function BasePadder() {
+            }
+            return BasePadder;
+        }());
+        var SpaceRepeatingPadder = /** @class */ (function (_super) {
+            __extends(SpaceRepeatingPadder, _super);
+            function SpaceRepeatingPadder(numSpaces) {
+                var _this = _super.call(this) || this;
+                _this.numSpaces = numSpaces;
+                return _this;
+            }
+            SpaceRepeatingPadder.prototype.getPaddingString = function () {
+                return Array(this.numSpaces + 1).join(" ");
+            };
+            return SpaceRepeatingPadder;
+        }(BasePadder));
+        var StringPadder = /** @class */ (function () {
+            function StringPadder(value) {
+                this.value = value;
+            }
+            StringPadder.prototype.getPaddingString = function () {
+                return this.value;
+            };
+            return StringPadder;
+        }());
+        function getRandomPadder() {
+            // return Math.random() < 0.5 ?
+            //     new SpaceRepeatingPadder(4) :
+            // new StringPadder("  ");
+            return new StringPadder("  ");
+        }
+        // 类型为SpaceRepeatingPadder | StringPadder
+        var padder = getRandomPadder();
+        if (padder instanceof SpaceRepeatingPadder) {
+            padder; // 类型细化为'SpaceRepeatingPadder'
+        }
+        if (padder instanceof StringPadder) {
+            padder; // 类型细化为'StringPadder'
+        }
+        log(padder instanceof BasePadder);
+        log(padder instanceof SpaceRepeatingPadder);
+        log(padder instanceof StringPadder);
+        var str = "abc";
+        var num = 123;
+        var arr = [1, 2, 3];
+        log(arr instanceof String);
+        log(arr instanceof Array);
+    };
+    LearnLH.prototype.Test3 = function () {
+        var SpaceRepeatingPadder = /** @class */ (function () {
+            function SpaceRepeatingPadder(numSpaces) {
+                this.numSpaces = numSpaces;
+            }
+            SpaceRepeatingPadder.prototype.getPaddingString = function () {
+                return Array(this.numSpaces + 1).join(" ");
+            };
+            return SpaceRepeatingPadder;
+        }());
+        var StringPadder = /** @class */ (function () {
+            function StringPadder(value) {
+                this.value = value;
+            }
+            StringPadder.prototype.getPaddingString = function () {
+                return this.value;
+            };
+            return StringPadder;
+        }());
+        function getRandomPadder() {
+            return Math.random() < 0.5 ?
+                new SpaceRepeatingPadder(4) :
+                new StringPadder("  ");
+        }
+        // 类型为SpaceRepeatingPadder | StringPadder
+        var padder = getRandomPadder();
+        if (padder instanceof SpaceRepeatingPadder) {
+            padder; // 类型细化为'SpaceRepeatingPadder'
+        }
+        if (padder instanceof StringPadder) {
+            padder; // 类型细化为'StringPadder'
+        }
+    };
     LearnLH.prototype.Test2 = function () {
         function extend(first, second) {
             var result = {};
@@ -37,7 +179,7 @@ var LearnLH = /** @class */ (function () {
                 return { fly: function () { log("Bird fly"); }, layEggs: function () { log("Bird layEggs"); } };
             }
         }
-        function isFish(pet) {
+        function aisFish2(pet) {
             return pet.swim !== undefined;
         }
         function isBird(pet) {
@@ -54,7 +196,7 @@ var LearnLH = /** @class */ (function () {
             pet.fly();
         }
         log("");
-        if (isFish(pet)) {
+        if (aisFish2(pet)) {
             pet.swim();
         }
         else if (isBird(pet)) {
@@ -72,9 +214,24 @@ var LearnLH = /** @class */ (function () {
         p2.swim();
     };
     LearnLH.prototype.Test1 = function () {
+        function isNumber(x) {
+            return typeof x == "number";
+        }
+        function isString(x) {
+            return typeof x == "string";
+        }
         function padLeft(value, padding) {
-            if (typeof padding === "number") {
+            if (isNumber(padding)) {
                 return Array(padding + 1).join("-") + value;
+            }
+            if (isString(padding)) {
+                return padding + value;
+            }
+            throw new Error("Expected string or number, got '" + padding + "'.");
+        }
+        function padLeft2(value, padding) {
+            if (typeof padding === "number") {
+                return Array(padding + 1).join(" ") + value;
             }
             if (typeof padding === "string") {
                 return padding + value;
