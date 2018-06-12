@@ -1,0 +1,15 @@
+{
+	"codeGeneration":{
+		"classNamePrefix":"UI_",
+		"codePath":"/Users/zengfeng/workspaces/www/githubpages/learn.Html5/Learn_10_FairyGUI/L_01_Hello/buildScripts",
+		"codeType":"TS",
+		"getMemberByName":false,
+		"ignoreNoname":false,
+		"memberNamePrefix":"m_",
+		"packageName":"TestFGUI"
+	},
+	"compressDesc":false,
+	"fileExtension":"",
+	"packageCount":2,
+	"path":"/Users/zengfeng/workspaces/www/githubpages/learn.Html5/Learn_10_FairyGUI/L_01_Hello/builds"
+}

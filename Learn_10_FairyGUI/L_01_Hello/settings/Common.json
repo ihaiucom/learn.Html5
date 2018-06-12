@@ -1,0 +1,15 @@
+{
+	"buttonClickSound":"",
+	"colorScheme":["自定义颜色 #FF0000","自定义颜色 #FFFF00"],
+	"font":"_sans",
+	"fontScheme":["默认字体","Avenir Next Condensed Ultra Light","Avenir Next Condensed Heavy"],
+	"fontSize":12,
+	"fontSizeScheme":["自定义字体大小 30","自定义字体大小 24","自定义字体大小 20"],
+	"scrollBars":{
+		"defaultDisplay":"visible",
+		"horizontal":"",
+		"vertical":""
+	},
+	"textColor":"#000000",
+	"tipsRes":""
+}

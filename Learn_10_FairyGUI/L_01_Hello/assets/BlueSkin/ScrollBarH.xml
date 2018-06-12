@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,17" extention="ScrollBar">
+  <displayList>
+    <image id="n1" name="n1" src="p6ixu" xy="0,0" size="200,17">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n2" name="bar" xy="17,0" size="165,17">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n3" name="arrow1" src="p6ix3" xy="1,1">
+      <Button icon="ui://ksompmdsp6ixy"/>
+    </component>
+    <component id="n4" name="arrow2" src="p6ix3" xy="184,1">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://ksompmdsp6ixv"/>
+    </component>
+    <component id="n5" name="grip" src="p6ix6" xy="34,1">
+      <Button icon="ui://ksompmdsp6ixl"/>
+    </component>
+  </displayList>
+  <ScrollBar/>
+</component>
