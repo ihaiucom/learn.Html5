@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <image id="n1_fk7w" name="chun" src="pf1j35" fileName="guis_login/chun.png" xy="19,29"/>
+    <component id="n2_fk7w" name="n2" src="fk7w6u" fileName="IconView.xml" xy="34,141"/>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+{
+	"codeGeneration":{
+		"classNamePrefix":"UI_",
+		"codePath":"E:\\zengfeng\\github\\learn.Html5\\Learn_10_FairyGUI\\L_02_Compoent\\exports\\codes",
+		"codeType":"TS",
+		"getMemberByName":false,
+		"ignoreNoname":false,
+		"memberNamePrefix":"m_",
+		"packageName":"TestFGUI"
+	},
+	"compressDesc":false,
+	"fileExtension":"bin",
+	"packageCount":2,
+	"path":"E:\\zengfeng\\github\\learn.Html5\\Learn_10_FairyGUI\\L_02_CompoentLaya\\bin\\res"
+}

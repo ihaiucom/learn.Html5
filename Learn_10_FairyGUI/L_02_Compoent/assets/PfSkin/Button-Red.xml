@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,69" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n1" name="up" src="pf1j48" fileName="guis_common/common_anniu_hong2.png" xy="0,0" size="200,69">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="down" src="pf1j47" fileName="guis_common/common_anniu_hong1.png" xy="0,0" size="200,69">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_wjwd" name="text" xy="0,0" pivot="0.5,0.5" size="200,69" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" singleLine="true" text="Button">
+      <gearXY controller="button" pages="0,1" values="0,0|0,0"/>
+      <gearSize controller="button" pages="0,1" values="200,69,1,1|200,69,0.8,0.8"/>
+      <gearColor controller="button" pages="1" values="#ffff00,#000000" default="#ffffff,#000000" tween="true"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+  <relation target="" sidePair=""/>
+</component>

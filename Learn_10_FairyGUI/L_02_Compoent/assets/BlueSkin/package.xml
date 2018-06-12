@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7iq4v3xw" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="wjwd0" name="ListItem.xml" path="/components/"/>
+    <image id="wjwd1" name="listitem-selected.png" path="/images/" exported="true" scale="9grid" scale9grid="6,3,33,15"/>
+    <image id="wjwd2" name="listitem-over.png" path="/images/" exported="true" scale="9grid" scale9grid="8,4,31,14"/>
+    <component id="wjwd3" name="ScrollBar_arrow.xml" path="/components/"/>
+    <image id="wjwd4" name="scrollbar-button.png" path="/images/" exported="true" scale="9grid" scale9grid="6,4,37,7"/>
+    <image id="wjwd5" name="scrollbar-button-over.png" path="/images/" exported="true" scale="9grid" scale9grid="5,4,34,7"/>
+    <component id="wjwd6" name="ScrollBar_grip.xml" path="/components/"/>
+    <component id="wjwd7" name="ComboBox_popup.xml" path="/components/"/>
+    <image id="wjwd8" name="popup-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="10,14,75,74"/>
+    <component id="wjwd9" name="WindowCloseButton.xml" path="/components/"/>
+    <image id="wjwda" name="cross_light_small.png" path="/images/" exported="true"/>
+    <image id="wjwdb" name="button-down.png" path="/images/" exported="true" scale="9grid" scale9grid="10,7,32,8"/>
+    <image id="wjwdc" name="button-normal.png" path="/images/" exported="true" scale="9grid" scale9grid="14,7,28,13"/>
+    <image id="wjwdd" name="button-over.png" path="/images/" exported="true" scale="9grid" scale9grid="11,7,31,11"/>
+    <image id="wjwde" name="checkbox.png" path="/images/" exported="true"/>
+    <image id="wjwdf" name="cross_dark.png" path="/images/" exported="true"/>
+    <image id="wjwdg" name="checkbox-disabled.png" path="/images/" exported="true"/>
+    <image id="wjwdh" name="cross_dark_disabled.png" path="/images/" exported="true"/>
+    <image id="wjwdi" name="button-disabled.png" path="/images/" exported="true" scale="9grid" scale9grid="10,7,32,11"/>
+    <image id="wjwdj" name="circle_dark.png" path="/images/" exported="true"/>
+    <image id="wjwdk" name="TextInput.png" path="/images/" exported="true" scale="9grid" scale9grid="6,6,86,18"/>
+    <image id="wjwdl" name="gripper_horizontal.png" path="/images/" exported="true"/>
+    <image id="wjwdm" name="gripper_vertical.png" path="/images/" exported="true"/>
+    <image id="wjwdn" name="hslider-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="14,4,64,4"/>
+    <image id="wjwdo" name="hslider-value.png" path="/images/" exported="true" scale="9grid" scale9grid="13,3,26,4"/>
+    <image id="wjwdp" name="vslider-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="4,6,4,90"/>
+    <image id="wjwdq" name="vslider-value.png" path="/images/" exported="true" scale="9grid" scale9grid="3,6,3,36"/>
+    <image id="wjwdr" name="list-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="25,25,50,50"/>
+    <image id="wjwds" name="hpogress-value.png" path="/images/" exported="true" scale="9grid" scale9grid="13,3,28,3"/>
+    <image id="wjwdt" name="hprogress-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="26,3,52,4"/>
+    <image id="wjwdu" name="scrollbar-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="4,2,40,10"/>
+    <image id="wjwdv" name="arrow_right.png" path="/images/" exported="true"/>
+    <image id="wjwdw" name="arrow_up.png" path="/images/" exported="true"/>
+    <image id="wjwdx" name="arrow_down.png" path="/images/" exported="true"/>
+    <image id="wjwdy" name="arrow_left.png" path="/images/" exported="true"/>
+    <image id="wjwdz" name="tab-button-normal.png" path="/images/" exported="true"/>
+    <image id="wjwd10" name="tab-button-over.png" path="/images/" exported="true"/>
+    <image id="wjwd11" name="tab-button-selected.png" path="/images/" exported="true"/>
+    <image id="wjwd12" name="window-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="13,13,78,76"/>
+    <image id="wjwd13" name="window-titlebar.png" path="/images/" exported="true" scale="9grid" scale9grid="8,8,64,16"/>
+    <image id="wjwd14" name="blue-document-css.png" path="/images/" exported="true"/>
+    <image id="wjwd15" name="blue-document-xml.png" path="/images/" exported="true"/>
+    <image id="wjwd16" name="fav_16.png" path="/images/" exported="true"/>
+    <image id="wjwd17" name="information.png" path="/images/" exported="true"/>
+    <component id="wjwd18" name="Button.xml" path="/" exported="true"/>
+    <component id="wjwd19" name="Demo.xml" path="/"/>
+    <component id="wjwd1a" name="Checkbox.xml" path="/" exported="true"/>
+    <component id="wjwd1b" name="RadioButton.xml" path="/" exported="true"/>
+    <component id="wjwd1c" name="InputTextField.xml" path="/" exported="true"/>
+    <component id="wjwd1d" name="InputTextArea.xml" path="/" exported="true"/>
+    <component id="wjwd1e" name="SliderH.xml" path="/" exported="true"/>
+    <component id="wjwd1f" name="Button_icon.xml" path="/" exported="true"/>
+    <component id="wjwd1g" name="SliderV.xml" path="/" exported="true"/>
+    <component id="wjwd1h" name="ProgressBar.xml" path="/" exported="true"/>
+    <component id="wjwd1i" name="ComboBox.xml" path="/" exported="true"/>
+    <component id="wjwd1j" name="WindowFrame.xml" path="/" exported="true"/>
+    <component id="wjwd1k" name="Button_icon_text.xml" path="/" exported="true"/>
+    <component id="wjwd1l" name="TabButton.xml" path="/" exported="true"/>
+    <component id="wjwd1m" name="ScrollBarH.xml" path="/" exported="true"/>
+    <component id="wjwd1n" name="ScrollBarV.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="BlueSkin" genCode="true"/>
+</packageDescription>

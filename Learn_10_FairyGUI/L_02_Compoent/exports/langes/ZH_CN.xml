@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- BlackSkin - LinkButton -->
+  <string name="7g5he7apfk7w7-n0" mz="title">Link Content</string>
+  <!-- BlackSkin - TooltipsWin -->
+  <string name="7g5he7apfk7w3b-n0" mz="title">文字</string>
+  <!-- BlueSkin - Demo -->
+  <string name="7iq4v3xwwjwd19-n0_wf5i" mz="n0">Demo Button</string>
+  <string name="7iq4v3xwwjwd19-n1_wf5i" mz="n1">Checkbox 1</string>
+  <string name="7iq4v3xwwjwd19-n2_wf5i" mz="n2">RadioButton 1</string>
+  <string name="7iq4v3xwwjwd19-n3_wf5i" mz="n3">Demo Text</string>
+  <string name="7iq4v3xwwjwd19-n5_wf5i" mz="n5">Demo Text</string>
+  <string name="7iq4v3xwwjwd19-n9_wf5i-0" mz="n9">ListItem 1</string>
+  <string name="7iq4v3xwwjwd19-n9_wf5i-1" mz="n9">ListItem 2</string>
+  <string name="7iq4v3xwwjwd19-n9_wf5i-2" mz="n9">ListItem 3</string>
+  <string name="7iq4v3xwwjwd19-n9_wf5i-3" mz="n9">ListItem 4</string>
+  <string name="7iq4v3xwwjwd19-n13_wf5i" mz="n13">ComboBox</string>
+  <string name="7iq4v3xwwjwd19-n21_wf5i" mz="n21">Icon Button</string>
+  <string name="7iq4v3xwwjwd19-n14_wf5i" mz="n14">Tab 1</string>
+  <string name="7iq4v3xwwjwd19-n15_wf5i" mz="n15">Tab 2</string>
+  <string name="7iq4v3xwwjwd19-n16_wf5i" mz="n16">Tab 3</string>
+  <!-- BlueSkin - WindowFrame -->
+  <string name="7iq4v3xwwjwd1j-n6_wf5i" mz="title">Title</string>
+  <!-- Package_GUID_Commone - Button-Red -->
+  <string name="7s9cxbxopf1j6r-n3_wjwd" mz="text">Button</string>
+  <!-- Package_GUID_Commone - Panel-Login -->
+  <string name="7s9cxbxowjwd6s-n0_wjwd-tips" mz="button">I am Button Tooltips</string>
+</resources>
