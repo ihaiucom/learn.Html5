@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="187,57">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n1_qx9h" name="bg_up" src="wvuy9" fileName="common_anniu_hong2.png" xy="10,2">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <text id="n2_qx9h" name="text" xy="0,0" pivot="0.5,0.5" size="187,56" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="Button">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </text>
+  </displayList>
+</component>

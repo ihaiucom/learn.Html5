@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ki4rvwbb" jpegQuality="80" compressPNG="true" hasFavorites="true">
+  <resources>
+    <image id="qx9h0" name="bangzhu_button.png" path="/"/>
+    <image id="qx9h1" name="cammon_yirenkapian.png" path="/"/>
+    <image id="qx9h2" name="commer_duihuakuang.png" path="/" exported="true" favorite="true" scale="9grid" scale9grid="23,23,46,46"/>
+    <image id="qx9h3" name="commer_jiantou.png" path="/"/>
+    <image id="qx9h4" name="commer_juxing_fanguang.png" path="/"/>
+    <image id="qx9h5" name="commer_kuang_di.png" path="/"/>
+    <image id="qx9h6" name="commer_shuaguang.png" path="/"/>
+    <image id="qx9h7" name="commer_suoding.png" path="/"/>
+    <image id="qx9h8" name="common_anniu_hong1.png" path="/" exported="true" favorite="true"/>
+    <image id="qx9h9" name="common_anniu_hong2.png" path="/" exported="true" favorite="true" scale="9grid" scale9grid="42,14,84,28"/>
+    <image id="qx9ha" name="common_anniu_huang1.png" path="/" exported="true"/>
+    <image id="qx9hb" name="common_anniu_huang2.png" path="/" exported="true"/>
+    <image id="qx9hc" name="common_anniu_lv1.png" path="/" exported="true"/>
+    <image id="qx9hd" name="common_anniu_lv2.png" path="/" exported="true"/>
+    <image id="qx9he" name="common_anniu_qianlan.png" path="/" exported="true"/>
+    <image id="qx9hf" name="common_anniu_qianzi.png" path="/" exported="true"/>
+    <image id="qx9hg" name="common_anniu_weixuanzhong.png" path="/" exported="true"/>
+    <image id="qx9hh" name="common_anwen.png" path="/" exported="true"/>
+    <image id="qx9hi" name="common_diban3.png" path="/" exported="true"/>
+    <image id="qx9hj" name="common_diyu_juxing10.png" path="/" exported="true"/>
+    <image id="qx9hk" name="common_diyu_juxing11.png" path="/" exported="true"/>
+    <image id="qx9hl" name="common_diyu_juxing12.png" path="/" exported="true"/>
+    <image id="qx9hm" name="common_diyu_juxing13.png" path="/" exported="true"/>
+    <image id="qx9hn" name="common_diyu_juxing14.png" path="/" exported="true"/>
+    <image id="qx9ho" name="common_diyu_juxing15.png" path="/" exported="true"/>
+    <image id="qx9hp" name="common_diyu_juxing16.png" path="/" exported="true"/>
+    <image id="qx9hq" name="common_diyu_juxing17.png" path="/" exported="true"/>
+    <image id="qx9hr" name="common_diyu_juxing2.png" path="/" exported="true"/>
+    <image id="qx9hs" name="common_diyu_juxing3.png" path="/" exported="true"/>
+    <image id="qx9ht" name="common_diyu_juxing4.png" path="/" exported="true"/>
+    <image id="qx9hu" name="common_diyu_juxing6.png" path="/" exported="true"/>
+    <image id="qx9hv" name="common_diyu_juxing8.png" path="/" exported="true"/>
+    <image id="qx9hw" name="common_diyu_juxing9.png" path="/" exported="true"/>
+    <image id="qx9hx" name="common_diyu_xuxian.png" path="/" exported="true"/>
+    <image id="qx9hy" name="common_duihuakuang.png" path="/" exported="true"/>
+    <image id="qx9hz" name="common_jianbian.png" path="/" exported="true"/>
+    <component id="qx9h10" name="Button-Red.xml" path="/Buttons/"/>
+    <component id="qx9h13" name="Component1.xml" path="/"/>
+    <image id="qx9h14" name="n1.png" path="/"/>
+  </resources>
+  <publish name="Package_GUIS_Common" genCode="true"/>
+</packageDescription>
