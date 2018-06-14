@@ -32,11 +32,6 @@ namespace configs
 
         }
 
-        // 解析内容
-        parse(content: string)
-        {
-
-        }
 
 
     }
