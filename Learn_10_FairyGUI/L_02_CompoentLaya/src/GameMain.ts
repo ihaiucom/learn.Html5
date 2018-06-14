@@ -1,10 +1,24 @@
 import Handler = laya.utils.Handler;
 import Loader = laya.net.Loader;
 
+
 // 程序入口
 class GameMain {
     constructor()
     {
+        log(GuiPackage.Common);
+        log(GuiPackage.Login);
+
+        let menuConfig = new MenuConfig();
+        menuConfig.id = 1;
+        menuConfig.name = "ZF MenuConfig";
+
+        log(menuConfig.getName());
+
+        let msg:MsgConfig = new MsgConfig();
+        log(msg);
+
+
         Laya.init(640, 1136, Laya.WebGL);
         laya.utils.Stat.show(0, 0);
         //设置适配模式
@@ -73,8 +87,8 @@ class GameMain {
 
         let iconView: fairygui.GComponent = fairygui.UIPackage.createObject("Package_GUID_Commone", "IconView").asCom;
         this.imageLoader = iconView.getChild("picLoader").asLoader;
-        iconView.width = 400;
-        iconView.height = 400;
+        iconView.width = 80;
+        iconView.height = 80;
 
         iconView.x = (fairygui.GRoot.inst.width  - iconView.width) * 0.5;
         iconView.y =  fairygui.GRoot.inst.height - iconView.height - button2.height - 60;

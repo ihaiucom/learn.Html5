@@ -8,6 +8,9 @@ module TestFGUI.Package_GUID_Commone {
 		public m_button:UI_Button_Red;
 		public m_n3:fairygui.GMovieClip;
 		public m_n2:fairygui.GMovieClip;
+		public m_n4:fairygui.GMovieClip;
+		public m_n6:UI_InputText;
+		public m_n8:UI_TestGroup;
 
 		public static URL:string = "ui://7s9cxbxowjwd6s";
 
@@ -26,6 +29,9 @@ module TestFGUI.Package_GUID_Commone {
 			this.m_button = <UI_Button_Red><any>(this.getChildAt(1));
 			this.m_n3 = <fairygui.GMovieClip><any>(this.getChildAt(2));
 			this.m_n2 = <fairygui.GMovieClip><any>(this.getChildAt(3));
+			this.m_n4 = <fairygui.GMovieClip><any>(this.getChildAt(4));
+			this.m_n6 = <UI_InputText><any>(this.getChildAt(5));
+			this.m_n8 = <UI_TestGroup><any>(this.getChildAt(6));
 		}
 	}
 }

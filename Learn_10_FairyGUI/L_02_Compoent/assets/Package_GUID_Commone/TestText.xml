@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,400">
+  <displayList>
+    <component id="n1_ckii" name="n1" src="ckii71" fileName="InputText.xml" xy="1,126" group="n3_ckii"/>
+    <component id="n2_ckii" name="n2" src="ckii71" fileName="InputText.xml" xy="0,176" group="n3_ckii"/>
+    <group id="n3_ckii" name="n3" xy="0,126" size="201,100"/>
+    <text id="n4_ckii" name="n4" xy="33,15" size="497,326" fontSize="12" ubb="true" autoSize="none" text="Hello [b]World[/b]  &#xA;[color=#FF0000]Color[/color]&#xA;&#xA;[url=http://blog.ihaiu.com]http://blog.ihaiu.com[/url] 显示一个超级链接。其中link_href可以在链接点击后触发的事件里获得。&#xA;&#xA;[b]text[/b] 设置文本为粗体。&#xA;&#xA;[i]text[/i] 设置文件为斜体。&#xA;&#xA;[u]text[/u] 设置文本为下划线。&#xA;&#xA;&#xA;[font=Airal]text[/font] 设置文本的字体。&#xA;&#xA;[size=10]text[/size] 设置文本的字体大小。&#xA;&#xA;[color=#FFFFFF][size=20]text[/size][/color]&#xA;&#xA;[img]ui://7s9cxbxopf1j35[/img]"/>
+    <richtext id="n5_ckii" name="n5" xy="206,46" size="497,356" fontSize="12" ubb="true" autoSize="none" text="Hello [b]World[/b]  &#xA;[color=#FF0000]Color[/color]&#xA;&#xA;[url=http://blog.ihaiu.com]http://blog.ihaiu.com[/url] 显示一个超级链接。其中link_href可以在链接点击后触发的事件里获得。&#xA;&#xA;[b]text[/b] 设置文本为粗体。&#xA;&#xA;[i]text[/i] 设置文件为斜体。&#xA;&#xA;[u]text[/u] 设置文本为下划线。&#xA;&#xA;&#xA;[font=Airal]text[/font] 设置文本的字体。&#xA;&#xA;[size=10]text[/size] 设置文本的字体大小。&#xA;&#xA;[color=#FFFFFF][size=20]text[/size][/color]&#xA;&#xA;[img]ui://7s9cxbxopf1j35[/img]"/>
+    <richtext id="n6_ckii" name="n6" xy="403,146" size="157,141" fontSize="12" text="&lt;a href=&quot;http://blog.ihaiu.com&quot;>爱海游&lt;/a>&#xA;&lt;img src=&quot;http://ask.fairygui.com/uploads/avatar/000/00/00/11_avatar_mid.jpg&quot; width=&quot;50&quot; height=&quot;50&quot; />&#xA;Hello&lt;br/>World\n My Name Is &#xA;Zengfeng&#xA;[color=#FF0000]Color[/color]"/>
+  </displayList>
+</component>

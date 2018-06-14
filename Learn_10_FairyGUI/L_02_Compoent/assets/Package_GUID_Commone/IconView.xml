@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,90" initName="iconView">
+  <displayList>
+    <image id="n2_fk7w" name="bg" src="pf1j3t" fileName="guis_common/commer_duihuakuang.png" xy="0,0" size="90,90">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n0_fk7w" name="picLoader" xy="10,9" pivot="0.5,0.5" size="68,70" url="ui://7s9cxbxopf1j1" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </loader>
+  </displayList>
+</component>

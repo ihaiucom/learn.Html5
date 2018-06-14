@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7s9cxbxo" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="pf1j0" name="baowu_buttom.png" path="/guis_zhujiemian/" exported="true"/>
+    <image id="pf1j1" name="bianju_button.png" path="/guis_zhujiemian/" exported="true"/>
+    <image id="pf1j2" name="cangku_buttom.png" path="/guis_zhujiemian/" exported="true"/>
+    <image id="pf1j3" name="cangku_buttom_man.png" path="/guis_zhujiemian/" exported="true"/>
+    <image id="pf1j4" name="common_shijianxian.png" path="/guis_zhujiemian/" exported="true"/>
+    <image id="pf1j5" name="common_tishi_liaotian.png" path="/guis_zhujiemian/" exported="true"/>
+    <image id="pf1j6" name="common_tishi_paishe.png" path="/guis_zhujiemian/" exported="true"/>
+    <image id="pf1j7" name="common_tishi_xinfeng.png" path="/guis_zhujiemian/" exported="true"/>
+    <image id="pf1j8" name="cxsy_jiantou.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j9" name="cx_chi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1ja" name="cx_shou.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jb" name="cx_xu.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jc" name="cx_yi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jd" name="cx_zhong.png" path="/guis_zhujiemian/"/>
+    <image id="pf1je" name="gengduo_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jf" name="gongchang_buttom.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jg" name="gs_ceng.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jh" name="gs_shizhi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1ji" name="gs_zhaopianzhi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jj" name="gs_zhaopianzhidi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jk" name="guanli_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jl" name="gzd_baisequan.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jm" name="gzd_baise_jindu.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jn" name="gzd_jinsequan.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jo" name="gzd_jinse_jindu.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jp" name="gzd_lansequan.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jq" name="gzd_lanse_jindu.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jr" name="gzd_sanjiao.png" path="/guis_zhujiemian/"/>
+    <image id="pf1js" name="gzd_zisequan.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jt" name="gzd_zise_jindu.png" path="/guis_zhujiemian/"/>
+    <image id="pf1ju" name="haoyou_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jv" name="hezuo_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jw" name="huisuo_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jx" name="jianyi_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jy" name="jiaobiao_xiebian.png" path="/guis_zhujiemian/"/>
+    <image id="pf1jz" name="jiequ_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j10" name="jinying_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j11" name="jituan_buttom.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j12" name="juben_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j13" name="mimihuisuo_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j14" name="mingxingpaidui_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j15" name="paisheanniu1.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j16" name="paisheanniu2.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j17" name="paisheanniu3.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j18" name="paisheanniu4.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j19" name="paisheanniu5.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1a" name="paishe_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1b" name="saiqu_iocn.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1c" name="shangdian_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1d" name="shejiao_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1e" name="shezhi_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1f" name="shichang_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1g" name="shouchong_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1h" name="sz_shengdian.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1i" name="sz_yinxiao.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1j" name="sz_yinyue.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1k" name="sz_yuyan.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1l" name="tonggao_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1m" name="yiren_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1n" name="yuanxian_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1o" name="zidongtianjia_tishi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1p" name="zt_touxiangkuang.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1q" name="zt_tuoyuan_80.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1r" name="zy_anniu_dizhuo_shang.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1s" name="zy_baoshi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1t" name="zy_bisaotishi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1u" name="zy_chaopiao.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1v" name="zy_chunjiehuodong.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1w" name="zy_dianzan.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1x" name="zy_diyu_juxing15.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1y" name="zy_fensishu.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j1z" name="zy_fensitanbang.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j20" name="zy_gongsipeitu.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j21" name="zy_gongsi_jingli.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j22" name="zy_gongwuwenjian.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j23" name="zy_hezuoliebiao.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j24" name="zy_huiyishijian.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j25" name="zy_jiahao.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j26" name="zy_jiangbei.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j27" name="zy_jinbi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j28" name="zy_jingyantiao.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j29" name="zy_jingyingliebiao.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2a" name="zy_laba.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2b" name="zy_light.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2c" name="zy_loading_chen.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2d" name="zy_loading_zi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2e" name="zy_meirifuli.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2f" name="zy_mubiao_diban.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2g" name="zy_off.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2h" name="zy_on.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2i" name="zy_paihang_anniu.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2j" name="zy_paihang_di.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2k" name="zy_qidaizhi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2l" name="zy_richangrenwu.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2m" name="zy_shexiangtou.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2n" name="zy_shijian_diban.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2o" name="zy_shizhi.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2p" name="zy_tishi_dian.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2q" name="zy_touxiang_nan.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2r" name="zy_touxiang_nv.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2s" name="zy_weituo_button.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2t" name="zy_xiangce.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2u" name="zy_xiangsudian.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2v" name="zy_xiebian.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2w" name="zy_xuhua.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2x" name="zy_yirenminglu.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2y" name="zy_zhengzaishangying.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j2z" name="zy_zhengzaishangying_deng.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j30" name="zy_zhengzaishangying_jiaojuan.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j31" name="zy_zhengzaishangying_tiaowen.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j32" name="zy_zhengzaishangying_yuan.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j33" name="zy_zhimingdu.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j34" name="zy_ziyuandiban.png" path="/guis_zhujiemian/"/>
+    <image id="pf1j35" name="chun.png" path="/guis_login/"/>
+    <image id="pf1j36" name="denglong1.png" path="/guis_login/"/>
+    <image id="pf1j37" name="denglong2.png" path="/guis_login/"/>
+    <image id="pf1j38" name="denglong_daizi.png" path="/guis_login/"/>
+    <image id="pf1j39" name="denglu_beijing.png" path="/guis_login/" exported="true" scale=""/>
+    <image id="pf1j3a" name="denglu_beijing01.png" path="/guis_login/"/>
+    <image id="pf1j3b" name="denglu_beijing2.png" path="/guis_login/"/>
+    <image id="pf1j3c" name="denglu_yun1.png" path="/guis_login/"/>
+    <image id="pf1j3d" name="denglu_yun2.png" path="/guis_login/"/>
+    <image id="pf1j3e" name="denglu_zhonggaowenzi.png" path="/guis_login/"/>
+    <image id="pf1j3f" name="denglu_zhuomian.png" path="/guis_login/"/>
+    <image id="pf1j3g" name="gong.png" path="/guis_login/"/>
+    <image id="pf1j3h" name="he.png" path="/guis_login/"/>
+    <image id="pf1j3i" name="huaban1.png" path="/guis_login/"/>
+    <image id="pf1j3j" name="huaban2.png" path="/guis_login/"/>
+    <image id="pf1j3k" name="login_zhanghao.png" path="/guis_login/"/>
+    <image id="pf1j3l" name="meihua_yuo.png" path="/guis_login/"/>
+    <image id="pf1j3m" name="meihua_zuo.png" path="/guis_login/"/>
+    <image id="pf1j3n" name="xiangyun_1.png" path="/guis_login/"/>
+    <image id="pf1j3o" name="xiangyun_2.png" path="/guis_login/"/>
+    <image id="pf1j3p" name="xin.png" path="/guis_login/"/>
+    <image id="pf1j3q" name="bangzhu_button.png" path="/guis_common/"/>
+    <image id="pf1j3r" name="bs_gonggaolan.png" path="/guis_common/"/>
+    <image id="pf1j3s" name="cammon_yirenkapian.png" path="/guis_common/"/>
+    <image id="pf1j3t" name="commer_duihuakuang.png" path="/guis_common/" scale="9grid" scale9grid="23,23,46,46"/>
+    <image id="pf1j3u" name="commer_jiantou.png" path="/guis_common/"/>
+    <image id="pf1j3v" name="commer_juxing_fanguang.png" path="/guis_common/"/>
+    <image id="pf1j3w" name="commer_kuang_di.png" path="/guis_common/"/>
+    <image id="pf1j3x" name="commer_shuaguang.png" path="/guis_common/"/>
+    <image id="pf1j3y" name="commer_suoding.png" path="/guis_common/"/>
+    <image id="pf1j3z" name="commer_suoding1.png" path="/guis_common/"/>
+    <image id="pf1j40" name="commer_suoding2.png" path="/guis_common/"/>
+    <image id="pf1j41" name="commer_xingxing_bai.png" path="/guis_common/"/>
+    <image id="pf1j42" name="commer_xingxing_jing.png" path="/guis_common/"/>
+    <image id="pf1j43" name="commer_xingxing_lan.png" path="/guis_common/"/>
+    <image id="pf1j44" name="commer_xingxing_zi.png" path="/guis_common/" scale="9grid" scale9grid="18,18,9,9" gridTile="15"/>
+    <image id="pf1j45" name="commer_zhizhang.png" path="/guis_common/"/>
+    <image id="pf1j46" name="common+.png" path="/guis_common/"/>
+    <image id="pf1j47" name="common_anniu_hong1.png" path="/guis_common/" exported="true" scale="9grid" scale9grid="47,18,94,36"/>
+    <image id="pf1j48" name="common_anniu_hong2.png" path="/guis_common/" exported="true" scale="9grid" scale9grid="42,14,84,28"/>
+    <image id="pf1j49" name="common_anniu_huang1.png" path="/guis_common/"/>
+    <image id="pf1j4a" name="common_anniu_huang2.png" path="/guis_common/"/>
+    <image id="pf1j4b" name="common_anniu_lv1.png" path="/guis_common/"/>
+    <image id="pf1j4c" name="common_anniu_lv2.png" path="/guis_common/"/>
+    <image id="pf1j4d" name="common_anniu_qianlan.png" path="/guis_common/"/>
+    <image id="pf1j4e" name="common_anniu_qianzi.png" path="/guis_common/"/>
+    <image id="pf1j4f" name="common_anniu_weixuanzhong.png" path="/guis_common/"/>
+    <image id="pf1j4g" name="common_anwen.png" path="/guis_common/"/>
+    <image id="pf1j4h" name="common_diban3.png" path="/guis_common/"/>
+    <image id="pf1j4i" name="common_diyu_juxing10.png" path="/guis_common/"/>
+    <image id="pf1j4j" name="common_diyu_juxing11.png" path="/guis_common/"/>
+    <image id="pf1j4k" name="common_diyu_juxing12.png" path="/guis_common/" scale="9grid" scale9grid="15,15,19,19"/>
+    <image id="pf1j4l" name="common_diyu_juxing13.png" path="/guis_common/"/>
+    <image id="pf1j4m" name="common_diyu_juxing14.png" path="/guis_common/"/>
+    <image id="pf1j4n" name="common_diyu_juxing15.png" path="/guis_common/"/>
+    <image id="pf1j4o" name="common_diyu_juxing16.png" path="/guis_common/"/>
+    <image id="pf1j4p" name="common_diyu_juxing17.png" path="/guis_common/"/>
+    <image id="pf1j4q" name="common_diyu_juxing2.png" path="/guis_common/"/>
+    <image id="pf1j4r" name="common_diyu_juxing3.png" path="/guis_common/"/>
+    <image id="pf1j4s" name="common_diyu_juxing4.png" path="/guis_common/"/>
+    <image id="pf1j4t" name="common_diyu_juxing6.png" path="/guis_common/"/>
+    <image id="pf1j4u" name="common_diyu_juxing8.png" path="/guis_common/"/>
+    <image id="pf1j4v" name="common_diyu_juxing9.png" path="/guis_common/"/>
+    <image id="pf1j4w" name="common_diyu_xuxian.png" path="/guis_common/"/>
+    <image id="pf1j4x" name="common_duihuakuang.png" path="/guis_common/"/>
+    <image id="pf1j4y" name="common_jianbian.png" path="/guis_common/"/>
+    <image id="pf1j4z" name="common_juxing_qiejiao.png" path="/guis_common/"/>
+    <image id="pf1j50" name="common_juxing_waikuang.png" path="/guis_common/"/>
+    <image id="pf1j51" name="common_loading_chen.png" path="/guis_common/"/>
+    <image id="pf1j52" name="common_loading_chen_toubu.png" path="/guis_common/"/>
+    <image id="pf1j53" name="common_loading_dise.png" path="/guis_common/"/>
+    <image id="pf1j54" name="common_loading_zi.png" path="/guis_common/"/>
+    <image id="pf1j55" name="common_neiyinying.png" path="/guis_common/"/>
+    <image id="pf1j56" name="common_next.png" path="/guis_common/"/>
+    <image id="pf1j57" name="common_next_hui.png" path="/guis_common/"/>
+    <image id="pf1j58" name="common_tishi_dian.png" path="/guis_common/"/>
+    <image id="pf1j59" name="common_toggle_k.png" path="/guis_common/"/>
+    <image id="pf1j5a" name="common_touxiangkuang.png" path="/guis_common/"/>
+    <image id="pf1j5b" name="common_tuoyuan_128.png" path="/guis_common/"/>
+    <image id="pf1j5c" name="common_tuoyuan_128quan.png" path="/guis_common/"/>
+    <image id="pf1j5d" name="common_tuoyuan_32.png" path="/guis_common/"/>
+    <image id="pf1j5e" name="common_tuoyuan_64.png" path="/guis_common/"/>
+    <image id="pf1j5f" name="common_tuoyuan_8.png" path="/guis_common/"/>
+    <image id="pf1j5g" name="common_xiangqing.png" path="/guis_common/"/>
+    <image id="pf1j5h" name="common_xiangsudian.png" path="/guis_common/"/>
+    <image id="pf1j5i" name="common_xiangsudian_touming.png" path="/guis_common/"/>
+    <image id="pf1j5j" name="common_xiangsudian_touying.png" path="/guis_common/"/>
+    <image id="pf1j5k" name="common_xiangsu_miaobian.png" path="/guis_common/"/>
+    <image id="pf1j5l" name="common_xiebian.png" path="/guis_common/"/>
+    <image id="pf1j5m" name="common_xuhua.png" path="/guis_common/"/>
+    <image id="pf1j5n" name="common_xuhua_2.png" path="/guis_common/"/>
+    <image id="pf1j5o" name="common_yeqian_weixuanzhong.png" path="/guis_common/"/>
+    <image id="pf1j5p" name="common_yeqian_xuanzhong.png" path="/guis_common/"/>
+    <image id="pf1j5q" name="cxsy_suo.png" path="/guis_common/"/>
+    <image id="pf1j5r" name="dingbuxiaoxikuang.png" path="/guis_common/"/>
+    <image id="pf1j5s" name="duihua_jiantou.png" path="/guis_common/"/>
+    <image id="pf1j5t" name="fanhui_anniu.png" path="/guis_common/"/>
+    <image id="pf1j5u" name="fengexian_heibai.png" path="/guis_common/"/>
+    <image id="pf1j5v" name="guangbi_anniu.png" path="/guis_common/"/>
+    <image id="pf1j5w" name="gz_guangquan.png" path="/guis_common/"/>
+    <image id="pf1j5x" name="hetongshu.png" path="/guis_common/"/>
+    <image id="pf1j5y" name="jiesuan_beiguang.png" path="/guis_common/"/>
+    <image id="pf1j5z" name="jingtoumohu_da.png" path="/guis_common/"/>
+    <image id="pf1j60" name="jq_gou.png" path="/guis_common/"/>
+    <image id="pf1j61" name="juxing_neiyinying.png" path="/guis_common/"/>
+    <image id="pf1j62" name="jy_zixian.png" path="/guis_common/"/>
+    <image id="pf1j63" name="light.png" path="/guis_common/"/>
+    <image id="pf1j64" name="new.png" path="/guis_common/"/>
+    <image id="pf1j65" name="new2.png" path="/guis_common/"/>
+    <image id="pf1j66" name="sanjiaoxing_baidi.png" path="/guis_common/"/>
+    <image id="pf1j67" name="shengji_jiantou.png" path="/guis_common/"/>
+    <image id="pf1j68" name="tiaowen_xiangsu.png" path="/guis_common/"/>
+    <image id="pf1j69" name="tuoyuan_64_neifaguang.png" path="/guis_common/"/>
+    <image id="pf1j6a" name="ty_wenli.png" path="/guis_common/"/>
+    <image id="pf1j6b" name="wt_baoxiang_kaiqi.png" path="/guis_common/"/>
+    <image id="pf1j6c" name="wt_baoxiang_kaiqizhong.png" path="/guis_common/"/>
+    <image id="pf1j6d" name="wt_baoxiang_kelingqu.png" path="/guis_common/"/>
+    <image id="pf1j6e" name="wt_baoxiang_yiban.png" path="/guis_common/"/>
+    <image id="pf1j6f" name="wt_baoxiang_zhihui.png" path="/guis_common/"/>
+    <image id="pf1j6g" name="wt_duihuakuang.png" path="/guis_common/"/>
+    <image id="pf1j6h" name="wuse_hengfu.png" path="/guis_common/"/>
+    <image id="pf1j6i" name="wy_jieduan.png" path="/guis_common/"/>
+    <image id="pf1j6j" name="yr_shaizi.png" path="/guis_common/"/>
+    <image id="pf1j6k" name="yr_zhaomu_zhuotai.png" path="/guis_common/"/>
+    <image id="pf1j6l" name="zhuanniudiban.png" path="/guis_common/"/>
+    <image id="pf1j6m" name="zhuanniudiban2.png" path="/guis_common/"/>
+    <image id="pf1j6n" name="ziyuan_diban.png" path="/guis_common/"/>
+    <image id="pf1j6o" name="ziyuan_diban02.png" path="/guis_common/"/>
+    <image id="pf1j6p" name="zy_anniu_dizhuo_shang.png" path="/guis_common/"/>
+    <image id="pf1j6q" name="zy_ziyuandiban.png" path="/guis_common/"/>
+    <component id="pf1j6r" name="Button-Red.xml" path="/" exported="true"/>
+    <component id="wjwd6s" name="Panel-Login.xml" path="/" exported="true"/>
+    <component id="fk7w6t" name="ImageLoader.xml" path="/" exported="true"/>
+    <component id="fk7w6u" name="IconView.xml" path="/" exported="true"/>
+    <movieclip id="fk7w6v" name="MovieClip1.jta" path="/" exported="true" atlas="2"/>
+    <movieclip id="fk7w6w" name="MovieClip2.jta" path="/"/>
+    <movieclip id="fk7w6x" name="timg.jta" path="/" exported="true" atlas="2"/>
+    <swf id="fk7w6y" name="a.swf" path="/" exported="true"/>
+    <movieclip id="fk7w6z" name="timg(1).jta" path="/"/>
+    <component id="ckii70" name="TestText.xml" path="/"/>
+    <component id="ckii71" name="InputText.xml" path="/"/>
+    <component id="ckii72" name="TestGroup.xml" path="/"/>
+  </resources>
+  <publish name="Package_GUID_Commone" genCode="true"/>
+</packageDescription>

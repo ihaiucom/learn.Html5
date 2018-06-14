@@ -4,6 +4,8 @@ module TestFGUI.Package_GUID_Commone {
 
 	export class Package_GUID_CommoneBinder{
 		public static bindAll():void {
+			fairygui.UIObjectFactory.setPackageItemExtension(UI_InputText.URL, UI_InputText);
+			fairygui.UIObjectFactory.setPackageItemExtension(UI_TestGroup.URL, UI_TestGroup);
 			fairygui.UIObjectFactory.setPackageItemExtension(UI_ImageLoader.URL, UI_ImageLoader);
 			fairygui.UIObjectFactory.setPackageItemExtension(UI_IconView.URL, UI_IconView);
 			fairygui.UIObjectFactory.setPackageItemExtension(UI_Button_Red.URL, UI_Button_Red);

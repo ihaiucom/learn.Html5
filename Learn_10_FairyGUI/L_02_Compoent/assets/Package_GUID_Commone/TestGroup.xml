@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500" overflow="scroll" scrollBarFlags="80" scrollBar="visible" margin="89,112,61,83" clipSoftness="18,0" hitTest="n24_ckii">
+  <displayList>
+    <graph id="n22_ckii" name="n22" xy="-20,-31" size="549,634" type="rect" fillColor="#47ffff00"/>
+    <graph id="n7_ckii" name="n7" xy="51,452" size="147,96" group="n9_ckii" type="rect" fillColor="#ffcc0000"/>
+    <graph id="n8_ckii" name="n8" xy="211,452" size="149,96" group="n9_ckii" type="rect" fillColor="#ff006600"/>
+    <group id="n9_ckii" name="n9" xy="50,452" size="310,96" advanced="true" layout="hz" lineGap="-100" colGap="14"/>
+    <graph id="n10_ckii" name="n10" xy="310,431" size="147,92" group="n12_ckii" type="rect" fillColor="#ffcc0000"/>
+    <graph id="n11_ckii" name="n11" xy="309,544" size="147,92" group="n12_ckii" type="rect" fillColor="#ff006600"/>
+    <group id="n12_ckii" name="n12" xy="309,430" size="148,206" advanced="true" layout="vt" lineGap="22" colGap="14"/>
+    <graph id="n13_ckii" name="n13" xy="121,53" size="119,67" group="n15_ckii" type="rect" fillColor="#ffcc0000"/>
+    <graph id="n14_ckii" name="n14" xy="121,132" size="119,50" restrictSize="0,0,30,60" group="n15_ckii" type="rect" fillColor="#ff006600"/>
+    <graph id="n16_ckii" name="n16" xy="121,195" size="119,83" group="n15_ckii" type="rect" fillColor="#ff0000ff"/>
+    <graph id="n17_ckii" name="n17" xy="145,291" size="119,67" group="n15_ckii" type="rect" fillColor="#ffcc0000"/>
+    <graph id="n18_ckii" name="n18" xy="175,371" size="119,50" restrictSize="0,0,30,60" group="n15_ckii" type="rect" fillColor="#ff006600"/>
+    <group id="n15_ckii" name="n15" xy="121,52" size="173,369" advanced="true" layout="vt" lineGap="13" colGap="14"/>
+    <component id="n19_ckii" name="iconView" src="fk7w6u" fileName="IconView.xml" xy="27,176"/>
+    <component id="n20_ckii" name="iconView" src="fk7w6u" fileName="IconView.xml" xy="28,57"/>
+    <graph id="n21_ckii" name="n21" xy="557,538" size="100,100" type="rect"/>
+    <graph id="n23_ckii" name="n23" xy="124,114" size="297,211" type="eclipse" fillColor="#ffff6600"/>
+    <image id="n24_ckii" name="n24" src="pf1j37" fileName="guis_login/denglong2.png" xy="234,45"/>
+  </displayList>
+</component>

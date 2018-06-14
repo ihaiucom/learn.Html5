@@ -6,6 +6,12 @@ var GameMain = /** @class */ (function () {
         var _this = this;
         this.imageUrls = ["ui://7s9cxbxopf1j1", "ui://7s9cxbxopf1j0", "ui://7s9cxbxopf1j2", "ui://7s9cxbxopf1j3", "ui://7s9cxbxopf1j4", "ui://7s9cxbxopf1j5", "ui://7s9cxbxopf1j7"];
         this.imageIndex = 0;
+        var menuConfig = new MenuConfig();
+        menuConfig.id = 1;
+        menuConfig.name = "ZF MenuConfig";
+        log(menuConfig.getName());
+        var msg = new MsgConfig();
+        log(msg);
         Laya.init(640, 1136, Laya.WebGL);
         laya.utils.Stat.show(0, 0);
         //设置适配模式
@@ -56,8 +62,8 @@ var GameMain = /** @class */ (function () {
         button2.onClick(this, this.onClickButton2);
         var iconView = fairygui.UIPackage.createObject("Package_GUID_Commone", "IconView").asCom;
         this.imageLoader = iconView.getChild("picLoader").asLoader;
-        iconView.width = 400;
-        iconView.height = 400;
+        iconView.width = 80;
+        iconView.height = 80;
         iconView.x = (fairygui.GRoot.inst.width - iconView.width) * 0.5;
         iconView.y = fairygui.GRoot.inst.height - iconView.height - button2.height - 60;
         Laya.stage.addChild(iconView.displayObject);
