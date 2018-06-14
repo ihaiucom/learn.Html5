@@ -6,6 +6,8 @@ var GameMain = /** @class */ (function () {
         var _this = this;
         this.imageUrls = ["ui://7s9cxbxopf1j1", "ui://7s9cxbxopf1j0", "ui://7s9cxbxopf1j2", "ui://7s9cxbxopf1j3", "ui://7s9cxbxopf1j4", "ui://7s9cxbxopf1j5", "ui://7s9cxbxopf1j7"];
         this.imageIndex = 0;
+        log(GuiPackage.Common);
+        log(GuiPackage.Login);
         var menuConfig = new MenuConfig();
         menuConfig.id = 1;
         menuConfig.name = "ZF MenuConfig";

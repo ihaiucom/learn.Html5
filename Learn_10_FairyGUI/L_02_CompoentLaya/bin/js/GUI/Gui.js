@@ -1,5 +1,6 @@
-class Gui
-{
+var Gui = /** @class */ (function () {
+    function Gui() {
+    }
     // static loadPackage(package: string | GuiPackageConfig)
     // {
     //     if (isString(package))
@@ -11,15 +12,10 @@ class Gui
     //         Gui.loadPackageByConfig(package);
     //     }
     // }
-
-    static loadPackageByName(packageName:string)
-    {
-
-    }
-
-
-    static loadPackageByConfig(packageConfig:GuiPackageConfig)
-    {
-
-    }
-}
+    Gui.loadPackageByName = function (packageName) {
+    };
+    Gui.loadPackageByConfig = function (packageConfig) {
+    };
+    return Gui;
+}());
+//# sourceMappingURL=Gui.js.map

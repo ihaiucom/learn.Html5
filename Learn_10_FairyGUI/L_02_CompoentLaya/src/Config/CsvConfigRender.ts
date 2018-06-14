@@ -2,10 +2,19 @@ namespace configs
 {
     export abstract class CsvConfigRender<T extends BaseConfig> extends BaseConfigRender<T>
     {
+        // 单元格分隔符
         delimiter: string = "\t";
+
+        // 表头--类型
         headTypes: Dictionary<number, string> = new Dictionary<number, string>();
+        
+        // 表头--索引
         headKeyEns: Dictionary<string, number> = new Dictionary<string, number>();
+        
+        // 表头--字段
         headKeyFields: Dictionary<number, string> = new Dictionary<number, string>();
+        
+        // 表头--中文
         headKeyCns: Dictionary<number, string> = new Dictionary<number, string>();
 
 	
