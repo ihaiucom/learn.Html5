@@ -18,12 +18,42 @@ namespace configs
         headKeyCns: Dictionary<number, string> = new Dictionary<number, string>();
 
 	
-        reload()
+        // 加载配置
+        load(configLoader?: ConfigLoaderInterface, onComplete?:ConfigRenderComplete)
+        {
+            let txt: string;
+            txt = configLoader.loadConfig(this.path);
+            this.parse(txt);
+
+            if(onComplete)
+            {
+                onComplete(this);
+            }
+        }
+
+        // 重新加载配置
+        reload(configLoader?: ConfigLoaderInterface, onComplete?:ConfigRenderComplete)
+        {
+            this.clear();
+            this.load(configLoader);
+            
+            if(onComplete)
+            {
+                onComplete(this);
+            }
+        }
+
+        
+        // 清理
+        clear()
         {
             this.headTypes.clear();
             this.headKeyEns.clear();
             this.headKeyFields.clear();
             this.headKeyCns.clear();
+
+            super.clear();
+            this.configs = {}
         }
 
 

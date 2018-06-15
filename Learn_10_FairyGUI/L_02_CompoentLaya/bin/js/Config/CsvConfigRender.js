@@ -26,11 +26,25 @@ var configs;
             _this.headKeyCns = new Dictionary();
             return _this;
         }
-        CsvConfigRender.prototype.reload = function () {
+        // 加载配置
+        CsvConfigRender.prototype.load = function (configLoader) {
+            var txt;
+            txt = configLoader.loadConfig(this.path);
+            this.parse(txt);
+        };
+        // 重新加载配置
+        CsvConfigRender.prototype.reload = function (configLoader) {
+            this.clear();
+            this.load(configLoader);
+        };
+        // 清理
+        CsvConfigRender.prototype.clear = function () {
             this.headTypes.clear();
             this.headKeyEns.clear();
             this.headKeyFields.clear();
             this.headKeyCns.clear();
+            _super.prototype.clear.call(this);
+            this.configs = {};
         };
         CsvConfigRender.prototype.parse = function (txt) {
             if (txt == null) {

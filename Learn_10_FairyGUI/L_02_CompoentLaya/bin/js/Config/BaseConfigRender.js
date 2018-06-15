@@ -12,10 +12,14 @@ var configs;
             this.configs[config.id];
         };
         // 加载配置
-        BaseConfigRender.prototype.load = function () {
+        BaseConfigRender.prototype.load = function (configLoader) {
         };
         // 重新加载配置
-        BaseConfigRender.prototype.reload = function () {
+        BaseConfigRender.prototype.reload = function (configLoader) {
+        };
+        // 清理
+        BaseConfigRender.prototype.clear = function () {
+            this.configs = {};
         };
         return BaseConfigRender;
     }());

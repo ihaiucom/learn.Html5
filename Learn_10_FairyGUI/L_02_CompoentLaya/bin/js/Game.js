@@ -1,5 +1,5 @@
 var AssetManager = Games.AssetManager;
-var ConfigManager = Games.ConfigManager;
+var ConfigManager = configs.ConfigManager;
 var Game = /** @class */ (function () {
     function Game() {
     }

@@ -3,7 +3,6 @@ var Loader = laya.net.Loader;
 // 程序入口
 var GameMain = /** @class */ (function () {
     function GameMain() {
-        var _this = this;
         this.imageUrls = ["ui://7s9cxbxopf1j1", "ui://7s9cxbxopf1j0", "ui://7s9cxbxopf1j2", "ui://7s9cxbxopf1j3", "ui://7s9cxbxopf1j4", "ui://7s9cxbxopf1j5", "ui://7s9cxbxopf1j7"];
         this.imageIndex = 0;
         log(GuiPackage.Common);
@@ -26,7 +25,7 @@ var GameMain = /** @class */ (function () {
         //     { url: "res/Basic.fui", type: Loader.BUFFER }
         // ], Handler.create(this, this.onLoaded));
         setTimeout(function () {
-            _this.loadGUI();
+            // this.loadGUI();
         }, 500);
     }
     GameMain.prototype.loadGUI = function () {

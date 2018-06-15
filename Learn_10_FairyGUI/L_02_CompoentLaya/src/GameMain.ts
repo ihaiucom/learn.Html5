@@ -33,7 +33,7 @@ class GameMain {
         // ], Handler.create(this, this.onLoaded));
 
         setTimeout(()=> {
-            this.loadGUI();
+            // this.loadGUI();
         }, 500);
     }
 

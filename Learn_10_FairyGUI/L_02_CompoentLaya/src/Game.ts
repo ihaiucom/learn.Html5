@@ -1,5 +1,5 @@
 import AssetManager = Games.AssetManager;
-import ConfigManager = Games.ConfigManager;
+import ConfigManager = configs.ConfigManager;
 
 class Game
 {
@@ -8,6 +8,7 @@ class Game
 
     static install()
     {
+        
     }
 
 }
