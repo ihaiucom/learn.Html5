@@ -1,0 +1,19 @@
+{
+    "EItemState": { //物品状态
+        "normal": 0, //正常状态
+        "locked": 1, //被锁定
+        "countdown": 2 //冷却中
+    },
+    "ECommon": { // 通用枚举
+        "MaxNameLenth": 20, //名字最大长度
+        "DefaultName": "Brad Pitt", // 默认名字
+        "MoveSpeed": 1.3, // 移动速度
+        "CanJump": false // 开启跳跃
+    },
+    "EHero":{
+        "A":0,
+        "B":1,
+        "C":2
+    }
+
+}

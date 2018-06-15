@@ -1,0 +1,48 @@
+{
+  "System/login/req": {
+    "comment": " 请求登陆",
+    "$id": "System/login/req",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "pwd": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "name",
+      "pwd"
+    ]
+  },
+  "System/login/resp": {
+    "comment": null,
+    "$id": "System/login/resp",
+    "properties": {
+      "error": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "error"
+    ]
+  },
+  "System/Logout/req": {
+    "comment": null,
+    "$id": "System/Logout/req",
+    "properties": {},
+    "required": []
+  },
+  "System/Logout/resp": {
+    "comment": null,
+    "$id": "System/Logout/resp",
+    "properties": {
+      "error": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "error"
+    ]
+  }
+}
