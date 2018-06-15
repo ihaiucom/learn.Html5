@@ -1,0 +1,46 @@
+{
+    "System": { // 模块
+        "login": { // 玩家登陆
+            "<req>": { // 请求登陆
+                "name": "string",
+                "pwd": "string"
+            },
+            "<res>": {
+                "error": "int" //错误类型
+            }
+        },
+        "Logout": {
+            "<req>": {},
+            "<res>": {
+                "error": "int"
+            }
+        }
+    },
+    "Test": { // 测试模块
+        "Echo": { // 回显
+            "<req>": {
+                "msg": "string", // 回显消息
+                "time": "int" //时间戳
+            },
+            "<res>": {
+                "msg": "string", //客户端发来的消息
+                "time": "int" //客户端发来的时间戳
+            }
+        }
+    },
+
+    "Roles":
+    {
+        "GetRoleList": { //选择角色
+            "<req>": {
+               
+            },
+            "<res>": {
+                 "error": "int",
+                 "roles":"array<Role>"
+            }
+
+        }
+    }
+
+}

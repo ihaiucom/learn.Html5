@@ -126,6 +126,7 @@
     <component id="fk7w3e" name="EditableTreeItem.xml" path="/Tree/" exported="true"/>
     <component id="fk7w3f" name="WindowFrame.xml" path="/Window/" exported="true"/>
     <component id="fk7w3g" name="WindowCloseButton.xml" path="/Window/" exported="true"/>
+    <component id="wl5n3h" name="Component1.xml" path="/"/>
   </resources>
   <publish name="BlackSkin" genCode="true"/>
 </packageDescription>

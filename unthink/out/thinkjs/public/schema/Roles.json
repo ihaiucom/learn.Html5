@@ -1,0 +1,35 @@
+{
+  "Roles/GetRoleList/req": {
+    "comment": null,
+    "$id": "Roles/GetRoleList/req",
+    "properties": {},
+    "required": []
+  },
+  "Roles/GetRoleList/resp": {
+    "comment": null,
+    "$id": "Roles/GetRoleList/resp",
+    "properties": {
+      "error": {
+        "type": "number"
+      },
+      "roles": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "error",
+      "roles"
+    ]
+  }
+}
