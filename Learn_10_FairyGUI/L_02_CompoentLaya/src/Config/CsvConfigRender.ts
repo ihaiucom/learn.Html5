@@ -3,7 +3,28 @@ namespace configs
     export abstract class CsvConfigRender<T extends BaseConfig> extends BaseConfigRender<T>
     {
         // 单元格分隔符
-        delimiter: string = "\t";
+        csvDelimiter: string = "\t";
+
+        // 单元格分隔符 替换
+        csvSeparatorReplace: string = null;
+
+        // 行分隔符 替换
+        csvLineSeparatorReplace: string = "|n|";
+
+        // 替换分割符
+        ReplaceSpearator(txt: string ): string
+        {
+            txt = txt.replace(this.csvLineSeparatorReplace, "\n");
+
+            if(!isNullOrEmpty(this.csvSeparatorReplace))
+            {
+                txt = txt.replace(this.csvSeparatorReplace, this.csvDelimiter);
+            }
+
+            return txt;
+        }
+
+
 
         // 表头--类型
         headTypes: Dictionary<number, string> = new Dictionary<number, string>();
@@ -70,22 +91,26 @@ namespace configs
             let csv:string[];
 
             line = lines[0];
-            csv = line.split(this.delimiter);
+            csv = line.split(this.csvDelimiter);
             this.ParseHeadTypes(csv);
 
 
             line = lines[1];
-            csv = line.split(this.delimiter);
+            csv = line.split(this.csvDelimiter);
             this.ParseHeadKeyCN(csv);
 
             line = lines[2];
-            csv = line.split(this.delimiter);
+            csv = line.split(this.csvDelimiter);
             this.ParseHeadKeyEN(csv);
 
             for(let i = 3; i < lines.length; i ++)
             {
                 line = lines[i];
-                csv = line.split(this.delimiter);
+                csv = line.split(this.csvDelimiter);
+                for(let j = 0; j < csv.length; j ++)
+                {
+                    csv[j] = this.ReplaceSpearator(csv[j]);
+                }
                 this.ParseCsv(csv);
             }
 
@@ -112,7 +137,7 @@ namespace configs
 			let key:string;
 			for(let i = 0; i < csv.length; i ++)
 			{
-				key = csv[i];
+				key = this.ReplaceSpearator(csv[i]);
 				if (!isNullOrEmpty(key))
 				{
 					key = key.trim();
@@ -162,6 +187,7 @@ namespace configs
 			console.error(`${this.path}: headKeyEns[${enName}] = -1`);
             return -1;
         }
+
 
     }
 }
